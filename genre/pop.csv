@@ -1,25 +1,4 @@
-Rank1,Priming,Rank2,Bait,Rank3,Hook,Rank4,Reel,Rank5,Release,Rank,Sustain,Noise,Keys
-6,Naud,5,Jera,3,Isa,4,Lake,1,Thurz,7,Kenaz,53,C Bb F
-11,Raido,14,Hagal,15,Ansuz,16,Iwaz,17,Pertho,18,Mannaz,53,F C
-17,Pertho,18,Mannaz,19,Gebo,20,Wunjo,21,Dag,22,Berkano,54,Bb F
-5,Jera,6,Naud,3,Isa,4,Lake,1,Thurz,7,Kenaz,54,C Bb F
-16,Iwaz,17,Perto,18,Mannaz,22,Berkano,23,Sowilo,21,Dag,54,Bb F
-18,Mannaz,22,Berkano,23,Sowilo,21,Dag,7,Kenaz,19,Gebo,54,Bb F
-10,Fehu,19,Gebo,7,Kenaz,21,Dag,2,Uruz,11,Raido,55,Bb F
-24,Tiwaz,10,Fehu,11,Raido,19,Gebo,7,Kenaz,20,Wunjo,55,F Bb
-15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,22,Berkano,23,Sowilo,55,C Bb F
-3,Isa,4,Lake,6,Naud,5,Jera,1,Thurz,7,Kenaz,55,Eb C Bb
-9,Othala,10,Fehu,11,Raido,7,Kenaz,19,Gebo,21,Dag,56,Bb F
-4,Lake,3,Isa,6,Naud,5,Jera,1,Thurz,7,Kenaz,56,Eb C Bb
-14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,22,Berkano,56,F C Bb
-20,Wunjo,22,Berkano,23,Sowilo,21,Dag,7,Kenaz,19,Gebo,56,F Bb
-23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,19,Gebo,7,Kenaz,56,Bb F
-1,Thurz,6,Naud,5,Jera,21,Dag,22,Berkano,23,Sowilo,57,F Bb
-8,Inguz,23,Sowilo,22,Berkano,21,Dag,7,Kenaz,20,Wunjo,57,F Bb
-13,Ewaz,14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,57,F C
-22,Berkano,23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,19,Gebo,57,F Bb
-19,Gebo,7,Kenaz,20,Wunjo,22,Berkano,21,Dag,23,Sowilo,57,Bb F A
-21,Dag,22,Berkano,23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,58,Bb F
-7,Kenaz,19,Gebo,20,Wunjo,22,Berkano,21,Dag,23,Sowilo,58,Bb F A
-12,Uruz,14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,58,F C
-2,Algiz,22,Berkano,23,Sowilo,21,Dag,6,Naud,5,Jera,59,Bb F
+Rank1,Priming,Rank2,Bait,Rank3,Hook,Rank4,Reel,Rank5,Release,Rank,Sustain,Noise,Key
+14,Hagal,17,Perto,23,Sowilo,4,Laguz,9,Othala,19,Gebo,46,E
+5,Jera,12,Uruz,15,Ansuz,3,Isa,18,Mannaz,16,Ihwaz,50,C
+20,Wunjo,6,Naudiz,11,Raido,5,Jera,14,Hagal,52,F

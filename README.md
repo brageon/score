@@ -5,9 +5,9 @@
 
 1. Poker strategy with static priors. Man Dag. Bm7b5 B7b9. 46%
 2. Sports betting. Perto Ansuz Tiwaz. Fdim F7#9 G#+. 48%
-3. "Recon-ng". Ehwaz Sun Ansuz Hagal. G#m7b5 Ab7#5 C+ Eb11. 50%
-4. Adobe plugin. Hagal Ehwaz Ansuz Tiwaz. D#dim G#7 C+ D13. 51%
-5. Kindergarten. Berkano. E Ab. 58%
+3. Kindergarten. Berkano. E Ab. 58%
+4. "Recon-ng". Ehwaz Sun Ansuz Hagal. G#m7b5 Ab7#5 C+ Eb11. 50%
+5. Adobe plugin. Hagal Ehwaz Ansuz Tiwaz. D#dim G#7 C+ D13. 51%
 7. "BetterUp". Gebo Dag Kena Isa Raido. Adim7 B7b9 A+ G11 EM6. 61%
 8. Outbound sales bootcamp. Othala. Eb. 67%
 10. Video sales letter for heat pump. Isa. 70%

@@ -1,0 +1,23 @@
+PrimingRank,PrimingRune,BaitRank,BaitRune,HookRank,HookRune,ReelRank,ReelRune,ReleaseRank,ReleaseRune,SustainRank,SustainRune,BIWANoisePercent,KeySignature
+6,Naud,5,Jera,3,Isa,4,Lake,1,Thurz,7,Kenaz,53,C Bb F
+5,Jera,6,Naud,3,Isa,4,Lake,1,Thurz,7,Kenaz,54,C Bb F
+16,Iwaz,17,Perto,18,Mannaz,22,Berkano,23,Sowilo,21,Dag,54,Bb F Dm
+18,Mannaz,22,Berkano,23,Sowilo,21,Dag,7,Kenaz,19,Gebo,54,Bb F Dm
+10,Fehu,19,Gebo,7,Kenaz,21,Dag,2,Uruz,11,Raido,55,Bb F Dm
+24,Tiwaz,10,Fehu,11,Raido,19,Gebo,7,Kenaz,20,Wunjo,55,F Dm Bb
+15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,22,Berkano,23,Sowilo,55,C Bb F
+3,Isa,4,Lake,6,Naud,5,Jera,1,Thurz,7,Kenaz,55,Eb C Bb
+9,Othala,10,Fehu,11,Raido,7,Kenaz,19,Gebo,21,Dag,56,Bb F Dm
+4,Lake,3,Isa,6,Naud,5,Jera,1,Thurz,7,Kenaz,56,Eb C Bb
+14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,22,Berkano,56,F C Bb
+20,Wunjo,22,Berkano,23,Sowilo,21,Dag,7,Kenaz,19,Gebo,56,F Dm Bb
+23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,19,Gebo,7,Kenaz,56,Bb F Dm
+1,Thurz,6,Naud,5,Jera,21,Dag,22,Berkano,23,Sowilo,57,F Dm Bb
+8,Inguz,23,Sowilo,22,Berkano,21,Dag,7,Kenaz,20,Wunjo,57,F Bb Dm
+13,Ewaz,14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,57,Dm F C
+22,Berkano,23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,19,Gebo,57,F Bb Dm
+19,Gebo,7,Kenaz,20,Wunjo,22,Berkano,21,Dag,23,Sowilo,57,Bb F Gm
+21,Dag,22,Berkano,23,Sowilo,24,Tiwaz,10,Fehu,11,Raido,58,Bb F Dm
+7,Kenaz,19,Gebo,20,Wunjo,22,Berkano,21,Dag,23,Sowilo,58,Bb F Gm
+12,Ur,14,Hagal,15,Ansuz,16,Iwaz,17,Perto,18,Mannaz,58,Dm F C
+2,Elk,22,Berkano,23,Sowilo,21,Dag,6,Naud,5,Jera,59,Bb F Dm

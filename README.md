@@ -3,14 +3,15 @@
 
 <h2>Projects</h2>
 
-1. Poker strategy with static priors. Man Dag. Bm7b5 B7b9. 46%
-2. Sports betting. Perto Ansuz Tiwaz. Fdim F7#9 G#+. 48%
-4. "Recon-ng". Ehwaz Sun Ansuz Hagal. G#m7b5 Ab7#5 C+ Eb11. 50%
-5. Adobe plugin. Hagal Ehwaz Ansuz Tiwaz. D#dim G#7 C+ D13. 51%
-7. "BetterUp". Gebo Dag Kena Isa Raido. Adim7 B7b9 A+ G11 EM6. 61%
-8. Outbound sales bootcamp. Othala. Eb. 67%
-10. Video sales letter for heat pump. Isa. 70%
-11. Kindergarten. Berkano. E Ab. 58%
+1. Kindergarten. Berkano. Am=C. 53%
+2. Video sales letter for heat pump. Isa. 70%
+3. Outbound sales bootcamp. Othala. Eb. 68%
+4. Sports betting. Oxe Ansuz Dag. G7#9 C+ Bb9. 55%
+5. Circle mean. 23+19/2=21. Dag. 48/3=16. Ihwaz. 64%
+6. Poker strategy with static priors. Man Dag. Bm7b5 B7b9. 46%
+7. Adobe plugin. Hagal Ehwaz Ansuz Tiwaz. D#dim G#7 C+ D13. 51%
+8. "Recon-ng". Ehwaz Sun Ansuz Hagal. G#m7b5 Ab7#5 C+ Eb11. 50%
+9. "BetterUp". Gebo Dag Kena Isa Raido. Adim7 B7b9 A+ G11 EM6. 61%
 
 <h2>Genres</h2>
 

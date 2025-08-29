@@ -1,16 +1,16 @@
-DCNH,Scale,Chords
-DC,A Perto Laguz,A B C D E F G
-HC,A Aeolian Ihwaz A Mixolydian Man,A B C D E F G
-NC,A# Aeolian Man,A B C D E F G
-DN,B Aeolian Fehu Wunjo Hagalaz Isa Berkano Gebo,B C D E F G A
-DH,C Ionian Thursiaz C Dorian Isa Jeran,C D E F G A B
-CN,C# Aeolian Sowelo Tiwaz Laguz,Db Eb F G Ab Bb C
-HN,C Aeolian Othala C Lydian Dagaz,C D E F G A B
-CD,D Kenaz D Lydian Ehwaz D Dorian Ihwaz Ingwaz D Mixolydian Tiwaz,D E F G A B C
-CH,E Dorian Uruz Ansuz Raido Kenaz Gebo Perto Algiz E Phrygian Thursiaz,E F G A B C D
-ND,Eb Aeolian Dagaz,Eb F G Ab Bb C D
-NH,F Lydian Hagal F Aeolian Jera Othala,F G A B C D E
-CN,F# Lydian Sowilo Man F# Aeolian Ehwaz,Gb Ab Bb C Db Eb F
-CD,F Mixolydian Laguz,F G A B C D E
-HD,G Dagaz G Mixolydian Nauthiz,G A B C D E F
-DH,G Lydian Ingwaz,G A B C D E F
+DCNH,Step,Scale,Chord
+DC,5,A,A B C D E F G
+HC,10,A Aeolian A Mixolydian,A B C D E F G
+NC,6,A# Aeolian,A B C D E F G
+DN,1,B Aeolian,B C D E F G A
+DH,3,C Ionian C Dorian,C D E F G A B
+CN,7,C# Aeolian,Db Eb F G Ab Bb C
+HN,9,C Aeolian C Lydian,C D E F G A B
+CD,4,D D Lydian D Dorian D Mixolydian,D E F G A B C
+CH,11,E Dorian E Phrygian,E F G A B C D
+ND,12,Eb Aeolian,Eb F G Ab Bb C D
+NH,8,F Lydian F Aeolian,F G A B C D E
+CN,7,F# Lydian F# Aeolian,Gb Ab Bb C Db Eb F
+CD,4,F Mixolydian,F G A B C D E
+HD,2,G G Mixolydian,G A B C D E F
+DH,3,G Lydian,G A B C D E F

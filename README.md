@@ -3,15 +3,14 @@
 
 <h2>Projects</h2>
 
-1. Kindergarten. Berkano. Am=C. 53%
-2. Video sales letter for heat pump. Isa. 70%
-3. Outbound sales bootcamp. Othala. Eb. 68%
-4. Sports betting. Oxe Ansuz Dag. G7#9 C+ Bb9. 55%
-5. Circle mean. 23+19/2=21. Dag. 48/3=16. Ihwaz. 64%
-6. Poker strategy with static priors. Man Dag. Bm7b5 B7b9. 46%
-7. Adobe plugin. Hagal Ehwaz Ansuz Tiwaz. D#dim G#7 C+ D13. 51%
-8. "Recon-ng". Ehwaz Sun Ansuz Hagal. G#m7b5 Ab7#5 C+ Eb11. 50%
-9. "BetterUp". Gebo Dag Kena Isa Raido. Adim7 B7b9 A+ G11 EM6. 61%
+Actions→Describe→NLP→Chunk→A(Whole→BIWA)→B(Bimap→DCNH→Score). Sales script: DC CD DH CH HN DH CD HN CN CD NC. BIWA: HD HC HN. It doesn't vibrate with CN. 
+
+1. Sofa: 12_Oxe, 10_Ansuz, 21_Dag. HD CH.
+2. Poker strategy with static priors: 18_Man, 21_Dag. DH.
+3. Adobe plugin: 14_Hagal 13_Ehwaz 10_Ansuz 24_Tiwaz. ND DH HC.
+4. "Recon-ng": 13_Ehwaz, 23_Sun, 10_Ansuz, 14_Hagal. HC CD.
+5. "BetterUp": 19_Gebo, 21_Dag, 7_Kenaz, 3_Isa, 11_Raido. HD HC NH.
+6. Design: 1_Thurs, 18_Man. CN. 
 
 <h2>Genres</h2>
 

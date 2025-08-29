@@ -1,25 +1,13 @@
-Rune,Priming,Center1,Bait,Center2,Hook,Center3,Reel,Center4,Release,Center5,Sustain,Center6
-Fehu,F#dim7,G–Em=G–Dbm=E–Bbm=Db–Gm=Bb,E7#9,A–Am=C,D9+,G–Gm=Bb,F#9,B,GM7,G–D–Bm=D,Abm,Gb–E–B–Abm=C–Ebm=Gb
-Uruz,Adim,Bb–Gm=Bb–Bbm=Db,G7#9,C–Cm=Eb,E9+,A–Am=C,D#9,Ab,BM7,B–Gb–Ebm=Gb,Em7,D–C–G–Bm=D
-Thuriaz,Cdim7,Db–Bbm=Db–Gm=Bb–Em=G–Dbm=E,D7#9,G–Gm=Bb,D+,Bm=D–Gm=Bb–Ebm=G,D9,G,CM7,C–G–Em=G,Em6,E–B–A–Abm=B
-Ansuz,F#dim,G–Em=G–Gm=Bb,F7#9,Bb–Bbm=Db,C+,Am=C–Fm=Ab,G13,C,EM,E–B–A–Am=C–Abm=B,Em9,D–G–Bm=D
-Raido,Ddim,Eb–Cm–Ebm=Gb,G#7#9,Db–Dbm=E,F+,Dm=F–Bbm=Db–Gbm=A,C13,F,EM6,E–B–A–Abm=B,Em11,D–G–Bm=D
-Kenaz,Ddim7,Eb–Cm=Eb–Am=C–Gbm=A–Ebm=Gb,F#7#9,B–Bm=D,A+,Gbm=A–Dm=F–Bbm=Db,B13,E,DM9,D–A,Em7#5,Dbm=E
-Gebo,Adim7,Bb–Gm=Bb–Em=G–Dbm=E–Bbm=D,F#7b9,B–Bm=D,E+,Dbm=E–Am=C–Fm=Ab,F11,Bb,EM9,E–B,Gm9,F–Bb–Dm=F
-Wunjo,Edim7,F–Dm=F–Bm=D–Abm=B–Fm=Ab,F7b5,Bb–Bbm=Db,G+,Em=G–Cm=Eb–Abm=B,E11,A,BM9,B–Gb,Gm11,F–Bb–Dm=F
-Hagalaz,D#dim,E–Dbm=E–Em=G,C#7#9,Gb–Gbm=A,C9+,F–Fm=Ab,Eb11,Ab,FM9,F–C,Bm11,A–D–Gbm=A
-Nauthiz,G#dim,A–Gbm=A–Am=C,C7b9,F–Fm=Ab,B9+,E–Em=G,Bb13,Eb,GM9,G–D,Bbm9,Ab–Db–Fm=Ab
-Isa,G#dim7,A–Gbm=A–Ebm=Gb–Cm=Eb–Am=C,D#7#9,Ab–Abm=B,B+,Abm=B–Em=G–Cm=Eb,G11,C,BM/9,B–Gb–E,Cm7,Bb–Ab–Eb–Gm=Bb
-Jera,Bdim,C–Am=C–Cm=Eb,Eb7#9,Ab–Abm=B,Aadd9,A–E–D,C11,F,DM/9,D–A–G,Fm11,Eb–Ab–Cm=Eb
-Eihwaz,Bdim7,C–Am=C–Gbm=A–Ebm=Gb–Cm=Eb,D#7,Ab–Abm=B,Cadd9,C–G–F,D11,G,D6/9,D–A,Am11,G–C–Em=G
-Perthro,Fdim,Gb–Ebm=Gb–Gbm=A,C7#9,F–Fm=Ab,Eadd9,E–B–A,B11,E,A6/9,A–E,G#m9,Gb–B–Ebm=Gb
-Algiz,Fdim7,Gb–Ebm=Gb–Cm=Eb–Am=C–Gbm=A,Eb7#5,Abm=B,F#add9,Gb–Db–B,E13,A,E6/9,E–B,G#m11,Gb–B–Ebm=Gb
-Sowilo,A#dim,B–Abm=B–Bm=D,Ab7#5,Dbm=E,A#add9,Bb–F–Eb,F#13,B,FM/9,F–C–Bb,C#m9,B–E–Abm=B
-Tiwaz,A#dim7,B–Abm=B–Fm=Ab,F7b9,Bb–Bbm=D,G#+,Fm=Ab–Dbm=E–Am=C,D13,G,CM/9,C–G–F,C#m11,B–E–Abm=B
-Berkano,Gdim,Ab–Fm=Ab–Abm=B,E7b5,A–Am=C,Ab+,Fm=Ab–Dbm=E–Am=C,C#11,Gb,Badd9,B–Gb–E,F#m11,E–A–Dbm=E
-Ehwaz,G#m7b5,A–Gbm=A,G#7,Db–Dbm=E,Db+,Bbm=Db–Gbm=A–Dm=F,Eb9,Ab,Dadd9,D–A–G,F#m9,E–A–Dbm=E
-Mannaz,Bm7b5,C–Am=C,G#9,Db,F#+,Ebm=Gb–Bm=D–Gm=Bb,A9,D,GM/9,G–D–C,A#m9,Ab–Db–Fm=Ab
-Laguz,C#m7b5,D–Bm=D,G#13,Db,C#+,Bbm=Db–Gbm=A–Dm=F,F9,Bb,AM/9,A–E–D,A#m7,Ab–Gb–Db–Fm=Ab
-Ingwaz,Em7b5,F–Dm=F,A7#9,D–Dm=F,D#+,Cm=Eb–Abm=B–Em=G,G9,C,GM6,G–D–C–Bm=D,Dm9,C–F–Am=C
-Dagaz,A#m7b5,B–Abm=B,B7b9,E–Em=G,Dbm9,B–E–Abm=B,Bb9,Eb,G6/9,G–D,Ebm9,Db–Gb–Bbm=Db
-Othala,F#m7b5,G–Em=G,Bb7#9,Eb–Ebm=Gb,G#add9,Ab–Eb–Db,Db9,Gb,F6/9,F–C,Fm9,Eb–Ab–Cm=Eb
+DCNH,Step,Scale,Chord
+DC,5,A A Aeolian,Am G F E
+HC,10,A Mixolydian,A G D E
+NC,6,A# Aeolian,A#m G# F# E
+DN,1,B Aeolian,Bm G A F#
+DH,3,C Ionian C Dorian G Lydian,C F G Am Bb Dm G
+CN,7,C# Aeolian F# Lydian F# Aeolian,C#m A E F# G#m D#dim
+HN,9,C Aeolian C Lydian,Cm Ab Bb F G D
+CD,4,D D Lydian D Dorian DF Mixolydian,D G A Bm C F Em
+CH,11,E Dorian E Phrygian,Em F G Am D C
+ND,12,Eb Aeolian,Ebm Ab Bb Gb
+NH,8,F Lydian F Aeolian,F G Am Bb C Dm
+HD,2,G G Mixolydian,G C D Em F

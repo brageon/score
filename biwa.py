@@ -1,145 +1,49 @@
-import re, sys
+import numpy as np
+from collections import Counter
 
-# --- Config: enharmonic mapping and circle of fifths ---
-ENHARMONIC = {
-    'Bb': 'A#', 'Cb': 'B', 'Db': 'C#', 'Eb': 'D#', 'Fb': 'E',
-    'Gb': 'F#', 'Ab': 'G#'
-}
-CIRCLE = ['C', 'G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'G#', 'D#', 'A#', 'F']
+fifths_map = {
+    'C': 0, 'G': 1, 'D': 2, 'A': 3, 'E': 4, 'B': 5,
+        'F#': 6, 'C#': 7, 'G#': 8, 'D#': 9, 'A#': 10, 'F': 11,
+            'Gb': 6, 'Db': 7, 'Ab': 8, 'Eb': 9, 'Bb': 10,
+                'Cm': 0, 'Gm': 1, 'Dm': 2, 'Am': 3, 'Em': 4, 'Bm': 5,
+                    'F#m': 6, 'C#m': 7, 'G#m': 8, 'D#m': 9, 'A#m': 10, 'Fm': 11,
+                        'Cdim': 0, 'Gdim': 1, 'Ddim': 2, 'Adim': 3, 'Edim': 4, 'Bdim': 5,
+                            'F#dim': 6, 'C#dim': 7, 'G#dim': 8, 'D#dim': 9, 'A#dim': 10, 'Fdim': 11
+                            }
 
-# --- Utilities ---
-def normalize_note(note):
-    """Convert flats to sharps, uppercase."""
-    note = note.capitalize()
-    return ENHARMONIC.get(note, note)
+                            # --- USER INPUT ---
+                            user_input = input("Enter chord sequence separated by spaces (e.g., C G F Eb D): ")
+                            sequence = user_input.strip().split()
 
-def chord_root(chord):
-    """Extract root (letter + optional #/b) from chord string."""
-    m = re.match(r'^([A-G][b#]?)(.*)', chord)
-    return normalize_note(m.group(1)) if m else None
+                            # --- VALIDATE INPUT ---
+                            invalid_chords = [ch for ch in sequence if ch not in fifths_map]
+                            if invalid_chords:
+                                print(f"Warning: These chords are not in fifths_map: {invalid_chords}")
 
-def nfc_steps(chords, base):
-    """Compute NFC steps for each chord root from base note."""
-    b = CIRCLE.index(normalize_note(base))
-    path = []
-    for c in chords:
-        r = chord_root(c)
-        if r not in CIRCLE:
-            print(f"Warning: '{c}' → root '{r}' not in Circle, skipping.")
-            continue
-        idx = CIRCLE.index(r)
-        path.append((idx - b) % 12)
-    return path
+                                # --- COMPUTE METRICS ---
+                                steps = [fifths_map[ch] for ch in sequence if ch in fifths_map]
 
-# --- Feature Extraction ---
-def peak_tension(path): return max(path) if path else 0
-def spread(path): return (max(path) - min(path)) if path else 0
-def return_to_tonic(path): return 1 if 0 in path else 0
+                                hyperparams = {}
+                                hyperparams['mean_step'] = np.mean(steps)
+                                hyperparams['std_step'] = np.std(steps)
+                                hyperparams['max_step'] = np.max(steps)
+                                hyperparams['min_step'] = np.min(steps)
+                                hyperparams['cadential_consistency'] = 100 - np.std(steps) * 10
+                                hyperparams['chromatic_jumps'] = np.sum([1 for s in steps if s > 5])
+                                hyperparams['total_jumps'] = np.sum(steps)
+                                hyperparams['backward_fifths'] = np.sum([1 for s in steps if s > 6])
+                                hyperparams['forward_fifths'] = len(steps) - hyperparams['backward_fifths']
+                                hyperparams['start_end_alignment'] = 100 if sequence[0] == sequence[-1] else 50
+                                hyperparams['chromatic_density'] = hyperparams['chromatic_jumps'] / len(steps) * 100
+                                hyperparams['weighted_total'] = np.mean(list(hyperparams.values())[:-1])
 
-# Hyperparameter scoring (1–10)
-def score_threshold_attention(path):
-    diffs = [abs(path[i+1] - path[i]) for i in range(len(path)-1)]
-    avg = sum(diffs)/len(diffs) if diffs else 0
-    return round((avg/6)*9 + 1)
+                                # --- OUTPUT METRICS ---
+                                for k, v in hyperparams.items():
+                                    print(f"{k}: {v}")
 
-def score_harmonic_expansion(path):
-    return round((spread(path)/6)*9 + 1)
-
-def score_unnecessary_disruption(path):
-    diffs = [abs(path[i+1] - path[i]) for i in range(len(path)-1)]
-    disrupts = sum(1 for d in diffs if d >= 3)
-    ratio = disrupts / (len(diffs) or 1)
-    return round(ratio*9 + 1)
-
-def score_emotional_saturation(path):
-    diffs = [abs(path[i+1] - path[i]) for i in range(len(path)-1)]
-    small = sum(1 for d in diffs if d <= 1)
-    ratio = small / (len(diffs) or 1)
-    return round(ratio*9 + 1)
-
-def score_compression_tension(path):
-    diffs = [path[i+1] - path[i] for i in range(len(path)-1)]
-    climbs = sum(1 for d in diffs if d > 0)
-    ratio = climbs / (len(diffs) or 1)
-    return round(ratio*9 + 1)
-
-def score_interference_memory(path):
-    seen = set()
-    repeats = 0
-    for p in path:
-        if p in seen:
-            repeats += 1
-        seen.add(p)
-    ratio = repeats / (len(path) or 1)
-    return round(ratio*9 + 1)
-
-def score_semantic_resonance(path):
-    if path and path[0]==0 and path[-1]==0: return 10
-    if 0 in path: return 6
-    return 2
-
-def score_ego_quotation(path):
-    pivots = sum(1 for p in path if p in (1,5))
-    ratio = pivots / (len(path) or 1)
-    return round(ratio*9 + 1)
-
-def score_temporal_modularity(path):
-    # loops = number of times we return to a previous NFC (excluding tonic)
-    loops = sum(1 for i,p in enumerate(path) if p in path[:i])
-    ratio = loops / (len(path) or 1)
-    return round(ratio*9 + 1)
-
-def score_recursive_learning(path):
-    return 10 if path and path[-1]==0 else 5
-
-def score_volitional_loop(path):
-    # intentional inversion: large jump to tonic
-    jumps = [abs(path[i+1] - path[i]) for i in range(len(path)-1)]
-    inversion = any(j>=6 for j in jumps)
-    return 10 if inversion else 4
-
-# --- Main ---
-def main():
-    base = input("Base key (e.g. F): ").strip() or 'F'
-    inp = input("Chords (space-separated): ").strip()
-    chords = inp.split()
-    path = nfc_steps(chords, base)
-    print("\n--- NFC Path ---")
-    print(path)
-
-    # Features
-    p_t = peak_tension(path)
-    sp = spread(path)
-    rtn = return_to_tonic(path)
-
-    print(f"\nPeak Tension: {p_t} fc")
-    print(f"Spread: {sp} fc")
-    print(f"Return to tonic: {'Yes' if rtn else 'No'}")
-
-    # Compute HP scores
-    scores = {
-        "Threshold Attention": score_threshold_attention(path),
-        "Harmonic Expansion": score_harmonic_expansion(path),
-        "Unnecessary Disruption": score_unnecessary_disruption(path),
-        "Emotional Saturation": score_emotional_saturation(path),
-        "Compression Tension": score_compression_tension(path),
-        "Interference Memory": score_interference_memory(path),
-        "Semantic Resonance": score_semantic_resonance(path),
-        "Ego Quotation": score_ego_quotation(path),
-        "Death Entropy":  # approximate as spread-related
-            round((p_t/6)*9 + 1),
-        "Temporal Modularity": score_temporal_modularity(path),
-        "Recursive Learning": score_recursive_learning(path),
-        "Volitional Loop": score_volitional_loop(path)
-    }
-
-    # Print Scorecard
-    print("\n--- BIWA HP Scorecard (1–10) ---")
-    for k,v in scores.items():
-        print(f"{k:25s}: {v}/10")
-
-    avg = sum(scores.values()) / len(scores)
-    print(f"\nOverall BIWA Coherence: {avg:.1f}/10")
-
-if __name__ == "__main__":
-    main()
+                                    # --- CHORD FREQUENCY ---
+                                    frequency = Counter(sequence)
+                                    print("\nChord Frequency:")
+                                    for k, v in frequency.items():
+                                        print(f"{k}: {v}")
+                                        

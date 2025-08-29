@@ -1,16 +1,13 @@
 DCNH,Step,Scale,Chord
-DC,5,A,A B C D E F G
-HC,10,A Aeolian A Mixolydian,A B C D E F G
-NC,6,A# Aeolian,A B C D E F G
-DN,1,B Aeolian,B C D E F G A
-DH,3,C Ionian C Dorian,C D E F G A B
-CN,7,C# Aeolian,Db Eb F G Ab Bb C
-HN,9,C Aeolian C Lydian,C D E F G A B
-CD,4,D D Lydian D Dorian D Mixolydian,D E F G A B C
-CH,11,E Dorian E Phrygian,E F G A B C D
-ND,12,Eb Aeolian,Eb F G Ab Bb C D
-NH,8,F Lydian F Aeolian,F G A B C D E
-CN,7,F# Lydian F# Aeolian,Gb Ab Bb C Db Eb F
-CD,4,F Mixolydian,F G A B C D E
-HD,2,G G Mixolydian,G A B C D E F
-DH,3,G Lydian,G A B C D E F
+DC,5,A A Aeolian,Am G F E
+HC,10,A Mixolydian,A G D E
+NC,6,A# Aeolian,A#m G# F# E
+DN,1,B Aeolian,Bm G A F#
+DH,3,C Ionian C Dorian G Lydian,C F G Am Bb Dm G
+CN,7,C# Aeolian F# Lydian F# Aeolian,C#m A E F# G#m D#dim
+HN,9,C Aeolian C Lydian,Cm Ab Bb F G D
+CD,4,D D Lydian D Dorian DF Mixolydian,D G A Bm C F Em
+CH,11,E Dorian E Phrygian,Em F G Am D C
+ND,12,Eb Aeolian,Ebm Ab Bb Gb
+NH,8,F Lydian F Aeolian,F G Am Bb C Dm
+HD,2,G G Mixolydian,G C D Em F

@@ -1,17 +1,13 @@
 import numpy as np
+from collections import Counter
 
-# Map each note/chord root to its Circle of Fifths position (C=0, G=1, D=2, ...)
-fifths_map = {
-    'C': 0, 'G': 1, 'D': 2, 'A': 3, 'E': 4, 'B': 5, 'F#': 6, 'C#': 7,
-    'Ab': 8, 'Eb': 9, 'Bb': 10, 'F': 11 }
+dcnh_map = {
+    'DC': 5, 'DN': 1, 'DH': 3, 'CD': 4, 'CN': 7, 'CH': 11,
+    'ND': 12, 'NC': 6, 'NH': 8, 'HD': 2, 'HC': 10, 'HN': 9 }
 
-# Example runes / chords (use roots only)
-sequence = ['G', 'F#', 'A', 'E', 'D', 'C#', 'E', 'B', 'F#', 'E', 'F#', 'C#', 'F#', 'E', 'B']
+sequence = ['DC','CD','DH','CH','HN','DH','CD','HN','CN','CD','NC']
+steps = [dcnh_map[sequence[i]] for i in range(len(sequence))]
 
-# Compute step distances in fifths
-steps = [abs(fifths_map[sequence[i]] - fifths_map[sequence[i+1]]) % 12 for i in range(len(sequence)-1)]
-
-# A Mixolydian, B Aeolian, C Ionian, D Dorian, E Phrygian, F# Lydian
 hyperparams = {}
 hyperparams['mean_step'] = np.mean(steps)
 hyperparams['std_step'] = np.std(steps)
@@ -28,5 +24,9 @@ hyperparams['chromatic_density'] = hyperparams['chromatic_jumps']/len(steps)*100
 hyperparams['weighted_total'] = np.mean(list(hyperparams.values())[:-1])  # avg of first 11 hyperparams
 
 for k,v in hyperparams.items():
-    print(f"{k}: 
-    {v}")
+    print(f"{k}: {v}")
+
+frequency = Counter(sequence)
+print("\nDCNH Value Frequency in Sequence:")
+for k,v in frequency.items():
+    print(f"{k}: {v}")

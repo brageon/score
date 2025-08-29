@@ -3,7 +3,7 @@ from collections import Counter
 
 # Map each note/chord root to its Circle of Fifths position (C=0, G=1, D=2, ...)
 fifths_map = {
-    'C': 0, 'G': 1, 'D': 2, 'A': 3, 'E': 4, 'B': 5, 'F#': 6, 'C#': 7,
+    'C': 0, 'G': 1, 'D': 2, 'A': 3, 'E': 4, 'B': 5, 'Gb': 6, 'Db': 7,
     'Ab': 8, 'Eb': 9, 'Bb': 10, 'F': 11 }
 
 # The first four sales nodes are DC HN CH CD. 

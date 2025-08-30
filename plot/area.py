@@ -1,56 +1,66 @@
 import math
+import pandas as pd
 
-def triangle_analysis(weights, A=(0,0), B=(1,0), C=(0.5, math.sqrt(3)/2)):
+def ngon_analysis(weights, vertices=None):
     """
-    Compute triangle properties from barycentric weights.
-    
-    :param weights: tuple/list of three percentages (wA, wB, wC)
-    :param A,B,C: vertices of the triangle as (x,y)
+    Compute N-gon properties from barycentric weights.
+
+    :param weights: list/tuple of N percentages (w1,...,wN)
+    :param vertices: list of N (x,y) coordinates. Default: regular polygon on unit circle
     """
-    # 1. Normalize weights
+    N = len(weights)
     total_w = sum(weights)
-    wA, wB, wC = [w/total_w for w in weights]
+    w_norm = [w/total_w for w in weights]
 
-    # 2. Compute total area using shoelace formula
-    def area_triangle(A, B, C):
-        return 0.5 * abs(A[0]*(B[1]-C[1]) + B[0]*(C[1]-A[1]) + C[0]*(A[1]-B[1]))
-    T = area_triangle(A,B,C)
+    # Default vertices: regular N-gon on unit circle
+    if vertices is None:
+        vertices = [(math.cos(2*math.pi*i/N), math.sin(2*math.pi*i/N)) for i in range(N)]
 
-    # 3. Compute barycentric point P
-    Px = wA*A[0] + wB*B[0] + wC*C[0]
-    Py = wA*A[1] + wB*B[1] + wC*C[1]
-    P = (Px, Py)
-
-    # 4. Compute centroid G
-    Gx = (A[0]+B[0]+C[0])/3
-    Gy = (A[1]+B[1]+C[1])/3
+    # Centroid of polygon
+    Gx = sum(v[0] for v in vertices)/N
+    Gy = sum(v[1] for v in vertices)/N
     G = (Gx, Gy)
 
-    # 5. Dominance metric
+    # Weighted barycentric point
+    Px = sum(w*v[0] for w,v in zip(w_norm, vertices))
+    Py = sum(w*v[1] for w,v in zip(w_norm, vertices))
+    P = (Px, Py)
+
+    # Approximate total area using shoelace formula (for polygon)
+    area = 0
+    for i in range(N):
+        x1, y1 = vertices[i]
+        x2, y2 = vertices[(i+1)%N]
+        area += (x1*y2 - x2*y1)
+    area = 0.5*abs(area)
+
+    # Dominance metric $
     PG = math.dist(P, G)
-    VGmax = max(math.dist(A,G), math.dist(B,G), math.dist(C,G))
+    VGmax = max(math.dist(v, G) for v in vertices)
     dominance = PG / VGmax
 
-    # 6. Angle from centroid to P
-    theta = math.degrees(math.atan2(P[1]-G[1], P[0]-G[0]))
+    # Angle $ from centroid to P
+    theta = math.degrees(math.atan2(Py - Gy, Px - Gx))
 
-    # 7. Subtriangle areas (weights × total area)
-    sub_areas = {
-        'Not A': f"{wA*T:.8f}",
-        'Not B': f"{wB*T:.8f}",
-        'Not C': f"{wC*T:.8f}" }
+    # Sub-areas approximation (weight × total area)
+    sub_areas = {f'V{i+1}': w*area for i,w in enumerate(w_norm)}
 
     return {
-        'Total area': T,
-        'Point Px': Px,
-        'Point Py': Py,
-        'Centroid G': G,
+        'Weights': weights,
+        'Vertices': vertices,
+        'Total area': area,
+        'Px': Px,
+        'Py': Py,
+        'Centroid': G,
         'Dominance': dominance,
-        'Angle from centroid': theta,
-        'Sub-areas': "\n".join([f"{k}: {v}" for k, v in sub_areas.items()])
-    }
+        'Angle': theta,
+        'Sub-areas': sub_areas }
 
-weights = (17, 67, 14)
-result = triangle_analysis(weights)
-for k,v in result.items():
-    print(f"{k}: {v}")
+inputs = [
+    (25, 14, 29, 17, 50, 29), 
+    (14, 50, 67, 14, 75) ]
+
+results = [ngon_analysis(w) for w in inputs]
+
+df = pd.DataFrame(results)
+print(df)

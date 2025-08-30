@@ -3,7 +3,7 @@
 
 <h2>Projects</h2>
 
-Actions→Describe→NLP→Chunk→A(Whole→BIWA)→B(Bimap→HEX). A: Pivot lines. B: Pitch field.
+Actions→Describe→NLP→Chunk→A(Whole→BIWA)→B(Bimap→HEX). Sales(A: Pivot. B: Field).
 
 1. Sofa: 12_Oxe, 10_Ansuz, 21_Dag. HD CH.
 2. Poker strategy with static priors: 18_Man, 21_Dag. DH.

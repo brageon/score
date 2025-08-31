@@ -12,7 +12,7 @@ Actions→Describe→NLP→Chunk→A(Whole→Pivot)→B(Bimap→HEX)
 5. "BetterUp": 19_Gebo, 21_Dag, 7_Kenaz, 3_Isa, 11_Raido. HD HC NH.
 6. Design: 1_Thurs, 18_Man. CN.
 
-1_ND, 2_HC, 3_CD, 4_HD, 5_CH, 6_DC, 7_DN, 8_DH, 9_NH, 10_HN, 11_CN, 12_NC, 13_ND.
+1_ND, 2_HC, 3_CD, 4_HD, 5_CH, 6_DC, 7_DN, 8_DH, 9_NH, 10_HN, 11_CN, 12_NC.
 
 <h2>Writing</h2>
 
@@ -20,7 +20,7 @@ Cadence is anchored by color indices. DH compression is equal in both TA and ES 
 
 1. Cadence: +3 +5 +3 +5 +2 +5 +2 +5 +1 +5 
 2. Chords: DC CD DH CH HN DH CD CH HN CN
-3. Melodies: +5 +4 +3 +11 +9 +3 +4 +11 +9 +7 +5
+3. Melodies: +5+4+3+11+9+3+4+11+9+7+5
 4. Lyrics: 10(F#dim7, E7#9), 15(F#dim, F7#9).
 
 ```

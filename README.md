@@ -12,8 +12,6 @@ Actions→Describe→NLP→Chunk→A(Whole→Pivot)→B(Bimap→HEX)
 5. "BetterUp": 19_Gebo, 21_Dag, 7_Kenaz, 3_Isa, 11_Raido. HD HC NH.
 6. Design: 1_Thurs, 18_Man. CN.
 
-1_ND, 2_HC, 3_CD, 4_HD, 5_CH, 6_DC, 7_DN, 8_DH, 9_NH, 10_HN, 11_CN, 12_NC.
-
 <h2>Writing</h2>
 
 Cadence is anchored by color indices. DH compression is equal in both TA and ES (meta-parameters). ND is highest in both. 

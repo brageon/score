@@ -1,16 +1,14 @@
 # Incubation of Ideas
 **Entropy Index**: N steps in circle of fifths distance to waveforms. Income complexity across different contexts. Built for entrepreneurs and institutional designers.
 
-<h2>Projects</h2>
+<h2>Planning</h2>
 
 Actions→Describe→NLP→Chunk→A(Whole→Pivot)→B(Bimap→HEX)
 
-1. Sofa: 12_Oxe, 10_Ansuz, 21_Dag. HD CH.
-2. Poker strategy with static priors: 18_Man, 21_Dag. DH.
-3. Adobe plugin: 14_Hagal 13_Ehwaz 10_Ansuz 24_Tiwaz. DN DH HC.
-4. "Recon-ng": 13_Ehwaz, 23_Sun, 10_Ansuz, 14_Hagal. HC CD.
-5. "BetterUp": 19_Gebo, 21_Dag, 7_Kenaz, 3_Isa, 11_Raido. HD HC NH.
-6. Design: 1_Thurs, 18_Man. CN.
+1. Poker strategy with static priors: 18_Man, 21_Dag. DH.
+2. Adobe plugin: 14_Hagal 13_Ehwaz 10_Ansuz 24_Tiwaz. DN DH HC.
+3. "Recon-ng": 13_Ehwaz, 23_Sun, 10_Ansuz, 14_Hagal. HC CH CD.
+4. "BetterUp": 19_Gebo, 21_Dag, 7_Kenaz, 3_Isa, 11_Raido. HD HC CD NH.
 
 <h2>Writing</h2>
 

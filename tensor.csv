@@ -1,13 +1,13 @@
-DCNH,Step,Scale,Chord,HEX
-DC,5,A A Aeolian,Am G F E,#7cfc00
-HC,10,A Mixolydian,A G D E,#00bfff
-NC,6,A# Aeolian,A#m G# F# E,#ff4500
-DN,1,B Aeolian,Bm G A F#,#7cfc00
-DH,3,C Ionian C Dorian G Lydian,C F G Am Bb Dm G,#91f600
-CN,7,C# Aeolian F# Lydian F# Aeolian,C#m A E F# G#m D#dim,#ff7400
-HN,9,C Aeolian C Lydian,Cm Ab Bb F G D,#ffd700
-CD,4,D D Lydian D Dorian DF Mixolydian,D G A Bm C F Em,#45e170
-CH,11,E Dorian E Phrygian,Em F G Am D C,#54e852
-ND,12,Eb Aeolian,Ebm Ab Bb Gb,#8b008b
-NH,8,F Lydian F Aeolian,F G Am Bb C Dm,#a6f000
-HD,2,G G Mixolydian,G C D Em F,#4ae466
+DCNH,Step,Scale,Chord,HEX,Against 
+DC,5,A A Aeolian,Am G F E,#7cfc00,Deluge
+HC,10,A Mixolydian,A G D E,#00bfff,Martyr
+NC,6,A# Aeolian,A#m G# F# E,#ff4500,Blame
+DN,1,B Aeolian,Bm G A F#,#7cfc00,Guilt
+DH,3,C Ionian C Dorian G Lydian,C F G Am Bb Dm G,#91f600,Drama
+CN,7,C# Aeolian F# Lydian F# Aeolian,C#m A E F# G#m D#dim,#ff7400,Rivalry
+HN,9,C Aeolian C Lydian,Cm Ab Bb F G D,#ffd700,Gaslight 
+CD,4,D D Lydian D Dorian DF Mixolydian,D G A Bm C F Em,#45e170,Belittle
+CH,11,E Dorian E Phrygian,Em F G Am D C,#54e852,Contempt
+ND,12,Eb Aeolian,Ebm Ab Bb Gb,#8b008b,Pity
+NH,8,F Lydian F Aeolian,F G Am Bb C Dm,#a6f000,Sulking
+HD,2,G G Mixolydian,G C D Em F,#4ae466,Greed

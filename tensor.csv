@@ -7,7 +7,7 @@ DH,3,Drama,Spiral_start-end,C F G Am Bb Dm G,C Ionian .8 C Dorian G Lydian .6
 CN,7,Rivalry,Lattice_mean,C#m A E F# G#m D#dim,C# Aeolian .3 F# Lydian F# Aeolian .4
 HN,9,Gaslight,DAG_cadence,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1
 CD,4,Belittle,Zig-zag_modal,D G A Bm C F Em,D D Lydian .4 D Dorian 1 DF Mixolydian
-CH,11,Contempt,Elliptic-curve,Em F G Am D C,E Dorian .6 E Phrygian 1
+CH,11,Contempt,CDF_elliptic-curve,Em F G Am D C,E Dorian .6 E Phrygian 1
 ND,12,Pity,Covariance_cancel,Ebm Ab Bb Gb,Eb Aeolian .2
 NH,8,Sulking,Path_total-jumps,F G Am Bb C Dm,F Lydian 1 F Aeolian .3
 HD,2,Greed,Decay_color-jumps,G C D Em F,G G Mixolydian 1

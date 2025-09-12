@@ -2,7 +2,7 @@ Vibe,Step,Against,Inference,Chord,Scale
 DC,5,Deluge,Hyperbolic_std,Am G F E,A A Aeolian 1
 HC,10,Martyr,Star_min-max,A G D E,A Mixolydian .6
 NC,6,Blame,Sine_trailing,A#m G# F# E,A# Aeolian .2
-DN,1,Guilt,Modus_KDE,Bm G A F#,B Aeolian .6
+DN,1,Guilt,KDE_modus,Bm G A F#,B Aeolian .6
 DH,3,Drama,Spiral_start-end,C F G Am Bb Dm G,C Ionian .8 C Dorian G Lydian .6
 CN,7,Rivalry,Lattice_mean,C#m A E F# G#m D#dim,C# Aeolian .3 F# Lydian F# Aeolian .4
 HN,9,Gaslight,DAG_cadence,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1

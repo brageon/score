@@ -1,13 +1,13 @@
-Vibe,Step,Against,Chord,Scale 
-DC,5,Deluge,Am G F E,A A Aeolian 1
-HC,10,Martyr,A G D E,A Mixolydian .6
-NC,6,Blame,A#m G# F# E,A# Aeolian .2
-DN,1,Guilt,Bm G A F#,B Aeolian .6
-DH,3,Drama,C F G Am Bb Dm G,C Ionian .8 C Dorian G Lydian .6
-CN,7,Rivalry,C#m A E F# G#m D#dim,C# Aeolian .3 F# Lydian F# Aeolian .4
-HN,9,Gaslight,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1
-CD,4,Belittle,D G A Bm C F Em,D D Lydian .4 D Dorian 1 DF Mixolydian
-CH,11,Contempt,Em F G Am D C,E Dorian .6 E Phrygian 1
-ND,12,Pity,Ebm Ab Bb Gb,Eb Aeolian .2
-NH,8,Sulking,F G Am Bb C Dm,F Lydian 1 F Aeolian .3
-HD,2,Greed,G C D Em F,G G Mixolydian 1
+Vibe,Step,Against,Inference,Chord,Scale 
+DC,5,Deluge,Hyperbolic_std,Am G F E,A A Aeolian 1
+HC,10,Martyr,Star_min-max,A G D E,A Mixolydian .6
+NC,6,Blame,Sine_trailing,A#m G# F# E,A# Aeolian .2
+DN,1,Guilt,Modus_Π,Bm G A F#,B Aeolian .6
+DH,3,Drama,Spiral_start-end,C F G Am Bb Dm G,C Ionian .8 C Dorian G Lydian .6
+CN,7,Rivalry,Lattice_mean,C#m A E F# G#m D#dim,C# Aeolian .3 F# Lydian F# Aeolian .4
+HN,9,Gaslight,DAG_cadence,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1
+CD,4,Belittle,Zig-zag_modal,D G A Bm C F Em,D D Lydian .4 D Dorian 1 DF Mixolydian
+CH,11,Contempt,Elliptic-curve,Em F G Am D C,E Dorian .6 E Phrygian 1
+ND,12,Pity,Covariance_cancel,Ebm Ab Bb Gb,Eb Aeolian .2
+NH,8,Sulking,Path_total-jumps,F G Am Bb C Dm,F Lydian 1 F Aeolian .3
+HD,2,Greed,Decay-spiral_color-jumps,G C D Em F,G G Mixolydian 1

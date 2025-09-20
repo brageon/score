@@ -3,8 +3,7 @@ import re, sys
 # --- Config: enharmonic mapping and circle of fifths ---
 ENHARMONIC = {
     'Bb': 'A#', 'Cb': 'B', 'Db': 'C#', 'Eb': 'D#', 'Fb': 'E',
-    'Gb': 'F#', 'Ab': 'G#'
-}
+    'Gb': 'F#', 'Ab': 'G#' }
 CIRCLE = ['C', 'G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'G#', 'D#', 'A#', 'F']
 
 # --- Utilities ---
@@ -116,7 +115,6 @@ def main():
     print(f"Spread: {sp} fc")
     print(f"Return to tonic: {'Yes' if rtn else 'No'}")
 
-    # Compute HP scores
     scores = {
         "Threshold Attention": score_threshold_attention(path),
         "Harmonic Expansion": score_harmonic_expansion(path),
@@ -130,16 +128,18 @@ def main():
             round((p_t/6)*9 + 1),
         "Temporal Modularity": score_temporal_modularity(path),
         "Recursive Learning": score_recursive_learning(path),
-        "Volitional Loop": score_volitional_loop(path)
-    }
+        "Volitional Loop": score_volitional_loop(path) }
 
-    # Print Scorecard
     print("\n--- BIWA HP Scorecard (1–10) ---")
     for k,v in scores.items():
         print(f"{k:25s}: {v}/10")
 
     avg = sum(scores.values()) / len(scores)
     print(f"\nOverall BIWA Coherence: {avg:.1f}/10")
+
+    """<40% Ambient, Classical. 41-45% Chillout, Trip-Hop.
+    46-50% Electropop, Alt Rock. 51-55% Pop, R&B, Funk. 
+    56-60% IDM, Jazz, Metal. 61-65% Avant-Garde."""
 
 if __name__ == "__main__":
     main()

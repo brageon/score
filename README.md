@@ -45,9 +45,9 @@ Cadence is anchored by color indices. DH compression is equal in both TA and ES 
 | 6s  | dilemma revisit | DH–DN; NC–CD |
 | 1u  | daily integrity routine | CN–NC; NC–ND; CH–HD; CD–HC |
 | 2u  | simulation | DH–HN; NH–HD; ND–DC; DN–CH |
-| 3u  | gambling | HN–HC; CN–DN |
+| 3u  | risk-taking | HN–HC; CN–DN |
 | 4u  | accountability | CN–DC; DC–HC |
-| 5u  | museum | DH–CD; NH–DN |
+| 5u  | visit release | DH–CD; NH–DN |
 | 6u  | spiral learning | ND–HD; DC–CH |
 | 1g  | dissolve dogma | DN–DC; DH–CN |
 | 2g  | double obligations | CN–HC; NC–DN |

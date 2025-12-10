@@ -19,7 +19,7 @@ Cadence is anchored by color indices. DH compression is equal in both TA and ES 
 3. Melodies: +5+4+3+11+9+3+4+11+9+7+5
 4. Lyrics: 10(F#dim7, E7#9), 15(F#dim, F7#9).
 
-**Verdict**: Jera–Uruz–Ansuz–Isa–Man–Ihwaz. Tonic, Predominant, Dominant, Re-transition, Cadence, Expansion. C+ Bdim G7#9 G11 G/9 Am11 = DH-HD = 3s breakup.
+**Verdict**: Jera–Uruz–Ansuz–Isa–Man–Ihwaz. Tonic, Predominant, Dominant, Re-transition, Cadence, Expansion. C+ Bdim G7#9 G11 G/9 Am11 = DH-HD = 3s. Prority: mode–mode > modus–mode > modus–mean.
 
 *Based on how you used this, I suspect your system would react differently under frictional pressure. Want to test it? I made a simulation layer. No pressure, just insight.*
 

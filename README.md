@@ -1,6 +1,39 @@
 # Incubation of Ideas
 **Entropy Index**: N steps in circle of fifths distance to waveforms. Income complexity across different contexts. Built for entrepreneurs and institutional designers.
 
+| Motif | Benefits | Bigrams |
+|:------|:---------|:--------|
+| 1c  | value, inner child | NH–CH; HN–CN |
+| 2c  | listening | HN–CD; CN–ND |
+| 3c  | correct path | NC–DC; DN–HD |
+| 6c  | radical climax | DH–HC; CH–HC |
+| 1Ø  | baseline | DH–NH; NH–HN; HN–CN |
+| 2Ø  | ethical foresight | DH–CH; ND–DN |
+| 3Ø  | holding | NH–NC; HN–ND; CN–DN |
+| 4Ø  | de-escalate | DH–NC; HN–DN; NC–CH |
+| 5Ø  | forced silence | NH–HC; ND–CD |
+| 6Ø  | distinction | NH–DC; CN–HD |
+| 1s  | right priority | DH–DC; HN–HD |
+| 2s  | motivation | NH–CN; HN–NC; HD–HC |
+| 3s  | breakup | DH–HD; ND–CH; NC–HD |
+| 4s  | readiness | NH–ND; CN–CD |
+| 5s  | trickster frame | HN–DC; CN–CH; DN–HC |
+| 6s  | dilemma revisit | DH–DN; NC–CD |
+| 1u  | daily integrity routine | CN–NC; NC–ND; CH–HD; CD–HC |
+| 2u  | simulation | DH–HN; NH–HD; ND–DC; DN–CH |
+| 3u  | gambling | HN–HC; CN–DN |
+| 4u  | accountability | CN–DC; DC–HC |
+| 5u  | museum | DH–CD; NH–DN |
+| 6u  | spiral learning | ND–HD; DC–CH |
+| 1g  | dissolve dogma | DN–DC; DH–CN |
+| 2g  | double obligations | CN–HC; NC–DN |
+| 3g  | intention ≠ outcome | NH–CD; HD–CD |
+| 4g  | absurd, win by losing | NC–HC; DN–CD |
+| 5g  | autonomy > closure | DH–ND; DC–CD |
+| 6g  | unlearning | HN–CH; ND–HC |
+
+1 bass, 2 suspense, 3 tritone, 4 cadence, 5 appoggiatura, 6 crescendo. s: leading tone, v-i scale degree. u: ostinato, leitmotif. Ø: non-interactive. g: paradox, opposite.
+
 <h2>Planning</h2>
 
 Actions→Describe→NLP→Chunk→A(Whole→Pivot)→B(Bimap→HEX)

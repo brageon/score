@@ -1,13 +1,13 @@
 Vibe,Gap,Step,Intention,Inference,Algebra,Rune,Social,Chord,Scale 
-DC,5,8,Deluge,Hyperbolic_std,coth_arcoth,Thurs_Ewaz,Supervisor,Am G F E,A A Aeolian 1
+DC,5,8,Deluge,SD_hyperbolic,coth_arcoth,Thurs_Ewaz,Supervisor,Am G F E,A A Aeolian 1
 CH,11,9,Contempt,CDF_elliptic-curve,cosh_arcosh,Algiz_Hagal,Id,Em F G Am D C,E Dorian .6 E Phrygian 1
-ND,12,6,Pity,Covariance_cancel,sinh_arsinh,Isa_Ansuz,Superid,Ebm Ab Bb Gb,Eb Aeolian .2
+ND,12,6,Pity,Complex-modulus,sinh_arsinh,Isa_Ansuz,Superid,Ebm Ab Bb Gb,Eb Aeolian .2
 NH,8,2,Sulking,Path_total-jumps,sech_arsech,Laguz_Iwaz,Supervisee,F G Am Bb C Dm,F Lydian 1 F Aeolian .3
 DH,3,1,Drama,Spiral_start-end,sinh_arsinh,Jera_Perto,Benefitor,C F G Am Bb Dm G,C Ionian .8 C Dorian G Lydian .6
 NC,6,5,Blame,Sine_trailing,cosh_arcosh,Naud_Man,Benefit,A#m G# F# E,A# Aeolian .2
 HC,10,12,Martyr,Star_min-max,sech_arsech,Kena_Gebo,Conflict,A G D E,A Mixolydian .6
-CD,4,11,Belittle,Zig-zag_modal,csch_arcsch,Inguz_Wunjo,Mirage,D G A Bm C F Em,D D Lydian .4 D Dorian 1 DF Mixolydian
-HN,9,3,Gaslight,DAG_cadence,csch_arcsch,Otala_Dag,Business,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1
+CD,4,11,Belittle,Zig-zag_modal-shift,csch_arcsch,Inguz_Wunjo,Mirage,D G A Bm C F Em,D D Lydian .4 D Dorian 1 DF Mixolydian
+HN,9,3,Gaslight,DAG_epsilon,csch_arcsch,Otala_Dag,Business,Cm Ab Bb F G D,C Aeolian .4 C Lydian 1
 HD,2,10,Greed,Decay_color-jumps,tanh_artanh,Fehu_Berk,Superego,G C D Em F,G G Mixolydian 1
 CN,7,4,Rivalry,Lattice_mean,tanh_artanh,Raido_Sowilo,Ego,C#m A E F# G#m D#dim,C# Aeolian .3 F# Lydian F# Aeolian .4
 DN,1,7,Guilt,KDE_modus,coth_arcoth,Uruz_Tiwaz,Quasi,Bm G A F#,B Aeolian .6

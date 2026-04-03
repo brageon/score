@@ -1,9 +1,5 @@
 # Incubation of Ideas
-**Entropy Index**: Impact complexity across different projects.
-
-<h2>Planning</h2>
-
-RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). 
+**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). 
 
 1. Poker strategy with static priors: 18Man, 21Dag. 46%
 2. Recon software: 13Ewaz, 23Sun, 10Anz, 14Hagal. 44%

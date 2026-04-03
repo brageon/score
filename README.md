@@ -1,5 +1,5 @@
 # Incubation of Ideas
-**Entropy Index**: N steps in circle of fifths distance to waveforms. Income complexity across different contexts.
+**Entropy Index**: Impact complexity across different projects.
 
 <h2>Planning</h2>
 

@@ -166,10 +166,10 @@ print("\n--- CHORDS ---")
 for motif, chord in map_sequence_to_chords(sequence):
     print(motif, "→", chord)
 
-print("\n--- KEY / TONAL CENTER ---")
+print("\n--- TONAL CENTER ---")
 print(detect_key(sequence))
 
-print("\n--- TRIGRAM LOVE ANALYSIS ---")
+print("\n--- TRIGRAM ANALYSIS ---")
 trigrams = [tuple(sequence[i:i+3]) for i in range(len(sequence)-2)]
 
 for t in trigrams:

@@ -120,7 +120,7 @@ def score_harmonic_density(path):
 # --- Main ---
 def main():
     base = input("Base key: ").strip() or 'C'
-    choice = input("Chord set or sequence: ").strip().upper()
+    choice = input("Chord set: ").strip().upper()
 
     if choice in CHORD_SETS:
         chords = CHORD_SETS[choice]

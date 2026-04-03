@@ -148,7 +148,7 @@ def main():
         "Harmonic Density": score_harmonic_density(path)
     }
 
-    print("\n--- BIWA-Music Scorecard (1–10) ---")
+    print("\n--- Scorecard ---")
     for k,v in scores.items():
         print(f"{k:20s}: {v}")
 

@@ -1,5 +1,5 @@
 # Incubation of Ideas
-**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). Plot/chapter drift: 3–6 rankings.
+**Syntropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). Plot/chapter drift: 3–6 rankings.
 
 1. Poker priors: 18Man, 21Dag. 35-46%
 2. Recon software: 13Ewaz, 23Sun, 10Anz, 14Hagal. 44-47%
@@ -8,7 +8,7 @@
 
 c(16, 23), Øu(16, 23, 32, 45, 54, 61), sg(16, 23, 32, 45, 54, 61).  3Ø is 5th in 14 HEX. Biwa gap: DH3, NH8, HN9, CN7, NC6, ND12, DN1, DC5, CH11, HD2, CD4, HC10.
 
-Life balance: Tur(L), Ing(A), Nad(P), Feh(E), Ewa(F), Jer(S). My own full name is 18 (berk). Here 18 is "man". Calendar: 24.33 days × 15 months. Day 55 is 7/3. Ken7, Isa3 → 6g. In relation to 112 it's 1g apart - very lucky. 
+Life balance: Tur(L), Ing(A), Nad(P), Feh(E), Ewa(F), Jer(S). My own full name is 18 (berk). Here 18 is "man". Calendar: 24.33 days × 15 months. Day 55 is 7/3, ie. 6g from Ken–Isa. In relation to 112 it's 1g apart - very lucky bass. 
 
 <h2>Writing</h2>
 

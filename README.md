@@ -1,5 +1,5 @@
 # Incubation of Ideas
-**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). Plot drift 3 rankings. Chapter drift 6 rankings. 
+**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). Plot/chapter drift: 3–6 rankings.
 
 1. Poker priors: 18Man, 21Dag. 35-46%
 2. Recon software: 13Ewaz, 23Sun, 10Anz, 14Hagal. 44-47%

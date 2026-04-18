@@ -1,18 +1,18 @@
 # Incubation of Ideas
-**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). 
+**Entropy Index**: Impact complexity across different projects. RuneMaster/Tensor.csv→A(Whole→Pivot)→B(Chunk→HEX). Plot drift 3 rankings. Chapter drift 6 rankings. 
 
-1. Poker strategy with static priors: 18Man, 21Dag. 46%
-2. Recon software: 13Ewaz, 23Sun, 10Anz, 14Hagal. 44%
-3. Lead agency: 19Geb, 21Dag, 7Ken, 3Isa, 11Rad. 41%
-4. Below: 2u+3u+5u is DN | HD tritone. 40% Reverse: 48%
+1. Poker priors: 18Man, 21Dag. 35-46%
+2. Recon software: 13Ewaz, 23Sun, 10Anz, 14Hagal. 44-47%
+3. Lead agency: 19Geb, 21Dag, 7Ken, 3Isa, 11Rad. 38-39%
+4. Racing: DH, CD, DN, HN, CN, NC. 42-43%
 
 c(16, 23), Øu(16, 23, 32, 45, 54, 61), sg(16, 23, 32, 45, 54, 61).  3Ø is 5th in 14 HEX. Biwa gap: DH3, NH8, HN9, CN7, NC6, ND12, DN1, DC5, CH11, HD2, CD4, HC10.
 
-Life balance: Tur(L), Ing(A), Nad(P), Feh(E), Ewa(F), Jer(S). My own full name is 18 (berk). Here 18 is "man". Life sum: 43. Mod: 19 => DN7 | CD11 (date) cadence.
+Life balance: Tur(L), Ing(A), Nad(P), Feh(E), Ewa(F), Jer(S). My own full name is 18 (berk). Here 18 is "man". Calendar: 24.33 days × 15 months. Day 55 is 7/3. Ken7, Isa3 → 6g. In relation to 112 it's 1g apart - very lucky. 
 
 <h2>Writing</h2>
 
-5u rankings are good in areas with high noise. Cymatics of all combinations (ocean) to generate a single key sequence (water drop). Naudiz when explaining a∈b⊆puk in words. Together, 5u NC gives 48% in coherence (above context).
+5u rankings are good in areas with high noise. Cymatics of all combinations (ocean) to generate a single key sequence (water drop). Naudiz when explaining ∀i∈j⊆k in words. Together, 5u NC gives 42-48% in coherence (above context).
 
 1. Motif: 5g 2Ø 2u 6g 1Ø; 2Ø
 2. Chords: DC CD DH CH HN DH CD CH HN CN
